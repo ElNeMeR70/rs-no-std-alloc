@@ -1,0 +1,13 @@
+[package]
+name = "rs-no-std-alloc"
+version = "1.0.0"
+edition = "2021"
+description = "no_std compatible allocator with linked-list free list"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-no-std-alloc"
+keywords = ["rust", "no-std", "allocator", "embedded", "systems"]
+
+[[bin]]
+name = "rs_no_std_alloc"
+path = "main.rs"
